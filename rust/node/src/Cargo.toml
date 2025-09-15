@@ -1,0 +1,12 @@
+[package]
+name = "node"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+clap = { version = "4", features=["derive"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+log = "0.4"
+env_logger = "0.10"
+# add libp2p later in sprint 1
